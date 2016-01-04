@@ -1,0 +1,25 @@
+<h3>AkiliTeklifMesajAlici</h3>
+DisTeklifAl servisini kullananların sistemlerinde tanımlaması gereken servistir. 
+Bu doküman başlatılan Teklif isteğinin bildirimlerini dış sisteme aktaran servisin özelliklerini tanımlar. 
+
+<h5>Hazırlanması Gereken Servis</h5>
+<pre>
+<code>
+  <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+     <soapenv:Header/>
+     <soapenv:Body>
+        <tem:AkiliTeklifMesajAlici>
+           <!--Optional:-->
+           <tem:ekranKey>?</tem:ekranKey>
+           <!--Optional:-->
+           <tem:fonksiyon>?</tem:fonksiyon>
+           <!--Optional:-->
+           <tem:parametreler>
+              <!--Zero or more repetitions:-->
+              <tem:string>?</tem:string>
+           </tem:parametreler>
+        </tem:AkiliTeklifMesajAlici>
+     </soapenv:Body>
+  </soapenv:Envelope>
+  </code>
+</pre>
