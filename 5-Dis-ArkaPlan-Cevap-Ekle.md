@@ -19,7 +19,6 @@
 &lt;/soapenv:Envelope&gt;
 </pre>
 
-DisArkaPlanCevapEkle("040","14596fe1-cf7a-4675-aa90-25341f8d0577","txtBeklenenCevap_040", "e9300c23-eb41-46ec-a748-e6f4569ecf67");
 **Link:**"http://localhost/ada/AkilliTeklif.DisArkaPlanCevapEkle.aaws"
 
 **Parametreler:** cevap, uniqueId, ekranKey, sirketKodu, urunGrubu bilgieri gönderilir(Bu değerler size gelmiş olan soru htmlinde bulunmaktadır.)
