@@ -22,6 +22,8 @@ Bu doküman başlatılan Teklif isteğinin bildirimlerini dış sisteme aktaran 
 &lt;/soapenv:Envelope&gt;
 </pre>
 
+*Parametreler html encoding işlemi yapılarak gönderilir.
+
 <h6>Gelebilecek Fonksiyon ve Parametreler</h6>
 <table>
   <thead>
