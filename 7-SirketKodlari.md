@@ -122,30 +122,36 @@
 	</tr>
 	<tr>
 		<td>20</td>
+		<td>ORİENT SİGORTA A.Ş.</td>
+		<td>106</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>21</td>
 		<td>RAY SİGORTA A.Ş.</td>
 		<td></td>
 		<td>042</td>
 	</tr>
 	<tr>
-		<td>21</td>
+		<td>22</td>
 		<td>SBN SİGORTA A.Ş.</td>
 		<td>049</td>
 		<td></td>
 	</tr>
 	<tr>
-		<td>22</td>
+		<td>23</td>
 		<td>SOMPO JAPAN SİGORTA A.Ş.</td>
 		<td></td>
 		<td>061</td>
 	</tr>
 	<tr>
-		<td>23</td>
+		<td>24</td>
 		<td>TÜRK NİPPON SİGORTA A.Ş.</td>
 		<td></td>
 		<td>051</td>
 	</tr>
 	<tr>
-		<td>24</td>
+		<td>25</td>
 		<td>ZURICH SİGORTA A.Ş.</td>
 		<td>018</td>
 		<td></td>
