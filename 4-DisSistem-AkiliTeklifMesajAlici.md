@@ -1,4 +1,4 @@
-<h3>AkiliTeklifMesajAlici</h3>
+<h3>AkilliTeklifMesajAlici</h3>
 DisTeklifAl servisini kullananların sistemlerinde tanımlaması gereken servistir. 
 Bu doküman başlatılan Teklif isteğinin bildirimlerini dış sisteme aktaran servisin özelliklerini tanımlar. 
 
@@ -7,7 +7,7 @@ Bu doküman başlatılan Teklif isteğinin bildirimlerini dış sisteme aktaran 
 &lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tem=&quot;http://tempuri.org/&quot;&gt;
    &lt;soapenv:Header/&gt;
    &lt;soapenv:Body&gt;
-      &lt;tem:AkiliTeklifMesajAlici&gt;
+      &lt;tem:AkilliTeklifMesajAlici&gt;
          &lt;!--Optional:--&gt;
          &lt;tem:ekranKey&gt;?&lt;/tem:ekranKey&gt;
          &lt;!--Optional:--&gt;
@@ -17,7 +17,7 @@ Bu doküman başlatılan Teklif isteğinin bildirimlerini dış sisteme aktaran 
             &lt;!--Zero or more repetitions:--&gt;
             &lt;tem:string&gt;?&lt;/tem:string&gt;
          &lt;/tem:parametreler&gt;
-      &lt;/tem:AkiliTeklifMesajAlici&gt;
+      &lt;/tem:AkilliTeklifMesajAlici&gt;
    &lt;/soapenv:Body&gt;
 &lt;/soapenv:Envelope&gt;
 </pre>
