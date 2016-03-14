@@ -13,7 +13,7 @@ Sistemimiz, linklere gerekli parametrelerin json yapısında gönderilmesi üzer
 
 <h3>Sisteminizde Tanımlamanız Gereken Servisler</h3>
 <ul>
-  <li><a href='4-DisSistem-AkiliTeklifMesajAlici.md'>AkiliTeklifMesajAlici</a></li>
+  <li><a href='4-DisSistem-AkilliTeklifMesajAlici.md'>AkilliTeklifMesajAlici</a></li>
 </ul>
 
 <h3>İşleyiş</h3>
