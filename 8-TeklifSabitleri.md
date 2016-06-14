@@ -22,6 +22,29 @@
 ]
 </pre>
 
+
+<h3>Araç Kullanım Şekli</h3>
+
+<table>
+<tr>
+<th>KullanimSekli</th>
+<th>Açıklama</th>
+</tr>
+<tr>
+<td>0</td>
+<td>Hususi</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Resmi</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ticari</td>
+</tr>
+</table>
+
+
 ###Sigorta Şirketleri
 
 **Link:**"http://localhost/ada/TeklifSabitleri.SigortaSirketleri.aaws"
