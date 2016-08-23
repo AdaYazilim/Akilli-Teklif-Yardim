@@ -6,10 +6,16 @@ Eğer şirket bazlı olarak Tüm ekbilgilerin bir profile bağlı gitmesini isti
 Profilden farklı olarak bir ek Bilgi değeri tanımlama istiyorsanız alanlara "eb~{{ŞirketKodu}}~{{ekBilgiId}}" şeklinde tanımlayabilirsiniz.
 eğer iki türlüde tanımlama yapmazsanız sistem bu alanlara herhangi bir şekilde mühahale etmeyecek ve sistemde default ne ise o olarak kalacaktır.
 
+Bu servisi çağırdığınızda dönen Cevapta bulunan 
+'Basarili' değeri true ise, 'SirketKodlari' alanında belirtilen kodlar için <b>hesalama işlemleri başlatılmış</b> demektir. 
+Eğer 'Basarili' değeri false ise, yapılmış istek için herhangi bir <b>hesaplama işlemi yapılmayacaktır</b>. 
+'Mesaj' ve 'Mesajlar' incelenerek ilgili veri girişi/düzeltme işlemlerinin yapılarak isteğin tekrarlanması gerekmektedir. Cevapta ki 'SirketKodlari' alanı gönderilmiş olan şirket Kodlarndan az olabilir. Bu durum yetkisiz şirketin kodunun gönderilmiş olmasından kaynaklanmaktadır.
+
+
 Örnekte, Trafik teklifinin istek ve cevabı verilmiştir.
 
-Cevap Hesaplama sonuçlarını barındırmaz. Hesaplamalar yapılırken ve tamamlandığında gerekli bilgilerin Bu servisi çağıran sisteme aktarılması için o sistemde "AkiliTeklifMesajAlici" servisi tanımlamalısınız.
-tanımlayacağınız servisi AAW sisteminde gerekli parametreyi ayarladığınızda;  Mesaj, Soru ve Hesaplama sonuçları bu servis üzerinden size iletilecektir.
+Cevap, Hesaplama sonuçlarını barındırmaz. Hesaplamalar yapılırken ve tamamlandığında gerekli bilgilerin Bu servisi çağıran sisteme aktarılması için o sistemde "AkiliTeklifMesajAlici" servisi tanımlamalısınız.
+tanımlayacağınız servisi AAW sisteminde gerekli parametreyi ayarladığınızda; <b>Hesaplanmaya başlayan</b> tekliflerin  Mesaj, Soru ve Hesaplama sonuçları bu servis üzerinden size iletilecektir.
 "AkiliTeklifMesajAlici" servisinin tanımlanması ile ilgili "AkiliTeklifMesajAlici" dokümanını inceleyebilirsiniz.
 
 **Link:**"http://localhost/ada/AkilliTeklif.DisTeklifAl.aaws"
