@@ -32,6 +32,12 @@ tanımlayacağınız servisi AAW sisteminde gerekli parametreyi ayarladığını
 	"Metin": "KimlikNo",
 	"Deger": "***********"
 }, {
+	"Metin": "EPosta",
+	"Deger": "test@eposta.com"
+}, {
+	"Metin": "TelefonNo",
+	"Deger": "5559998877"
+}, {
 	"Metin": "BagliPolice",
 	"Deger": ""
 }, {
