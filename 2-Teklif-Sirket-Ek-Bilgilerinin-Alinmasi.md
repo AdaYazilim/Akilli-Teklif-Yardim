@@ -1,7 +1,10 @@
-###TeklifiAlYeniTeklif
+###SirketTanimBilgileriniAl
 
 Ürün grubu bazında bazı sabit ayarları döndüren servistir.
 Örnekte "Trafik" ürün Grubu için örnek istek yapılmış ve sistemde kayıtlı olunan Bir şirket için tanımlı ek bilgileri ve profillerdeki tanımlı ekbilgi ayarlamalarını getirdi.
+Ek bilgilerin Teklif alımında Anahtar Kelimeleri oluştururken;
+"eb~{{ŞirketKodu}}~{{KategoriAd}}~{{ekBilgiId}}" veya "eb~{{ŞirketKodu}}~{{ekBilgiId}}" 
+formülü kullanılabilir.
 
 **Link:**"http://localhost/ada/AkilliTeklif.SirketTanimBilgileriniAl.aaws"
 
