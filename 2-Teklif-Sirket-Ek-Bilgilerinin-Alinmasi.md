@@ -3,7 +3,7 @@
 Ürün grubu bazında bazı sabit ayarları döndüren servistir.
 Örnekte "Trafik" ürün Grubu için örnek istek yapılmış ve sistemde kayıtlı olunan Bir şirket için tanımlı ek bilgileri ve profillerdeki tanımlı ekbilgi ayarlamalarını getirdi.
 
-**Link:**"http://localhost/ada/AkilliTeklif.TeklifiAlYeniTeklif.aaws"
+**Link:**"http://localhost/ada/AkilliTeklif.SirketTanimBilgileriniAl.aaws"
 
 **Parametreler:** Ürün Grubu bilgisi
 
@@ -14,8 +14,8 @@
 ##### **Örnek Cevap:**
 <pre>
 {
-    "Nesne": {
-        "SirketBilgileri": [{
+    [
+        {
             "EkBilgiProfilleri": [{
                 "EkBilgiler": [{
                     "Degerler": [{
@@ -85,35 +85,7 @@
             "Offline": false,
             "Uzak": false,
             "PolicelestirmeVar": false
-        }],
-        "Teklif": {
-            "donenPolicelerdeAlinsin": true,
-            "Alanlar": {
-                "BaslangicTarihi": {
-                    "Soru": "BaslangicTarihi",
-                    "Cevap": "31.12.2015"
-                },
-                "BitisTarihi": {
-                    "Soru": "BitisTarihi",
-                    "Cevap": "31.12.2016"
-                },
-                "KullaniciId": {
-                    "Soru": "KullaniciId",
-                    "Cevap": "1"
-                },
-                "UrunGrubu": {
-                    "Soru": "UrunGrubu",
-                    "Cevap": "Trafik"
-                }
-            },
-            "DonenPoliceler": [],
-            "UrunGrubu": "Trafik",
-            "TeklifId": 0,
-            "TeklifIdString": ""
-        },
-        "KomisyonGormeYetkisiVar": true
-    },
-    "Basarili": true,
-    "Mesaj": ""
+        }
+    ]
 }
 </pre>
