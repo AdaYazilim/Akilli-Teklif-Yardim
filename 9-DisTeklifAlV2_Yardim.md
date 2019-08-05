@@ -1,4 +1,7 @@
 ### DisTeklifAlV2_Yardim
+ 
+ "DisTeklifAl" ve "DisTeklifAlV2" servislerinde kullanılabilinecek alanların bilgilerini döner.
+ Ayrıca; "DisTeklifAlV2" servisinde kullanılabilinen, Ek sigortalıların nesne yapısınıda döner.
 
 **Link:**"http://localhost/ada/AkilliTeklif.DisTeklifAlV2_Yardim.aaws"
 
