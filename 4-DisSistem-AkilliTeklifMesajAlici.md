@@ -2,6 +2,9 @@
 DisTeklifAl servisini kullananların sistemlerinde tanımlaması gereken servistir. 
 Bu doküman başlatılan Teklif isteğinin bildirimlerini dış sisteme aktaran servisin özelliklerini tanımlar. 
 
+Servisinin linkini adayazılıma doğrudan tanımlatabileceğiniz gibi;
+"DisTeklifAlV2" servis isteğine "ServisLink" ve "ServisSoapAction" keyli HttpHeaderlar olarakta ekleyebilirsiniz.
+
 <h5>Hazırlanması Gereken Servis</h5>
 <pre>
 &lt;soapenv:Envelope xmlns:soapenv=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:tem=&quot;http://tempuri.org/&quot;&gt;
