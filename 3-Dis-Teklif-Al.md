@@ -22,7 +22,7 @@ tanımlayacağınız servisi AAW sisteminde gerekli parametreyi ayarladığını
 **Parametreler:** Teklif Bilgileri, İstek Gönderilecek Şirketler, Ekran Key
 
 **Header Parametreleri;**
-Dönüş bilgilerini alacağınız "AkilliTeklifMesajAlici" servisinin linkini adayazılıma doğrudan tanımlayabileceğiniz gibi;
+Dönüş bilgilerini alacağınız "AkilliTeklifMesajAlici" servisinin linkini adayazılıma doğrudan tanımlatabileceğiniz gibi;
 servis isteğine "ServisLink" ve "ServisSoapAction" keyli HttpHeaderlar olarakta ekleyebilirsiniz.
 
 Teklif Bilgileri yapısı;
