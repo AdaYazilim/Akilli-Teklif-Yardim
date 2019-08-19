@@ -1,4 +1,4 @@
-###SirketTanimBilgileriniAl
+### SirketTanimBilgileriniAl
 
 Ürün grubu bazında bazı sabit ayarları döndüren servistir.
 Örnekte "Trafik" ürün Grubu için örnek istek yapılmış ve sistemde kayıtlı olunan Bir şirket için tanımlı ek bilgileri ve profillerdeki tanımlı ekbilgi ayarlamalarını getirdi.
@@ -9,7 +9,7 @@ Ek bilgilerin Teklif alımında Anahtar Kelimeleri oluştururken;
 formülü kullanılabilir.
 </pre>
 
-**Link:**"http://localhost/ada/AkilliTeklif.SirketTanimBilgileriniAl.aaws"
+**Link:** "http://localhost/ada/AkilliTeklif.SirketTanimBilgileriniAl.aaws"
 
 **Parametreler:** Ürün Grubu bilgisi
 
@@ -95,3 +95,63 @@ formülü kullanılabilir.
     ]
 }
 </pre>
+
+
+### TeklifinSonKullanilanEkBilgileri
+
+Bir teklifde, şirket için kullanılmş son ekbilgilerin olduğu ekbilgi profilini döndüren servistir.
+
+<pre>
+Ek bilgilerin Teklif alımında Anahtar Kelimeleri oluştururken;
+"eb~{{ŞirketKodu}}~{{KategoriAd}}~{{ekBilgiId}}" veya "eb~{{ŞirketKodu}}~{{ekBilgiId}}"
+formülü kullanılabilir.
+</pre>
+
+**Link:** "http://localhost/ada/AkilliTeklif.TeklifinSonKullanilanEkBilgileri.aaws"
+
+**Parametreler:**  TeklifId ve ŞirketKodu
+
+##### Örnek İstek:
+
+[160,'054']
+
+##### **Örnek Cevap:**
+<pre>
+{
+    "Nesne": {
+        "EkBilgiler": [
+            {
+                "Degerler": [
+                    {
+                        "Metin": "Değiştirme",
+                        "Deger": ""
+                    },
+                    {
+                        "Metin": "Peşin",
+                        "Deger": "P"
+                    },
+                    {
+                        "Metin": "Vadeli",
+                        "Deger": "V"
+                    }
+                ],
+                "Ozellikler": [],
+                "Deger": "P",
+                "Kosul": "",
+                "Id": "OdemeSekli",
+                "Aciklama": "Ödeme Tipi",
+                "Kategori": {
+                    "Ad": "OdemeBilgileri",
+                    "Aciklama": "Ödeme Bilgileri"
+                },
+                "Tip": "Select"
+            },
+            ...
+        ],
+        "Ad": "En Son Kullanılmış Olan Ek Bilgiler"
+    },
+    "Basarili": true,
+    "Mesaj": ""
+}
+</pre>
+
