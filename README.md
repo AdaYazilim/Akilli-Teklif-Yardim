@@ -17,5 +17,5 @@ Sistemimiz, linklere gerekli parametrelerin json yapısında gönderilmesi üzer
 </ul>
 
 <h3>İşleyiş</h3>
-<img src='http://adayazilim.com/img/AAWTeklif-TeklifAlmaServisiOzetDiagram.jpg'>
+<img src='https://admin.adayazilim.com/img/AAWTeklif-TeklifAlmaServisiOzetDiagram.jpg'>
 
