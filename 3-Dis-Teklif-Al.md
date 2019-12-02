@@ -35,22 +35,41 @@ Teklif Bilgileri yapısı;
 <pre>
 [
 	{
-		Alanlar: [{// kullanılabilecek alan listesi için; "DisTeklifAlV2_Yardim" servisini inceleyebilirsiniz.
+		"Alanlar": [{
 			"Metin": "UrunGrubu",
 			"Deger": "Trafik"
 		}, {
 			"Metin": "KimlikNo",
-			"Deger": "***********"
+			"Deger": "1111111111"
+		}, {
+			"Metin": "PlakaIlKodu",
+			"Deger": "45"
+		}, {
+			"Metin": "PlakaNo",
+			"Deger": "KT54627"
+		}, {
+			"Metin": "AracTescilKodu",
+			"Deger": "AB"
+		}, {
+			"Metin": "AracTescilSeriNo",
+			"Deger": "123456"
+		}, {
+			"Metin": "ekbilgiProfil_540",
+			"Deger": "Otomatik"
+		}, {
+			"Metin": "eb~540~detayliTramerSorgusuYap",
+			"Deger": "1"
 		}],
-		Sigortalilar:[]// nesne yapısı için; "DisTeklifAlV2_Yardim" servisini inceleyebilirsiniz.
+		"Sigortalilar":[]// nesne yapısı için; "DisTeklifAlV2_Yardim" servisini inceleyebilirsiniz.
 	}
-, ["004", "045"], "4dec50dc-42a0-48ec-80a8-4322ccaf059c"]
+, ["540","045"], "4dec50dc-42a0-48ec-80a8-4322ccaf059c"]
+
 </pre>
 
 ##### **Örnek Cevap:**
 <pre>
 {
-	"SirketKodlari": ["004", "045"],
+	"SirketKodlari": ["540", "045"],
 	"OncekiCevaplar": [],
 	"TeklifId": 3352,
 	"Mesaj": "",
@@ -77,107 +96,43 @@ Yalnızca teklif bilgillerini gönderebilirsiniz. Ek sigortalı tanımlması yap
 
 ##### Örnek İstek:
 <pre>
+
 [
-[{
-	"Metin": "UrunGrubu",
-	"Deger": "Trafik"
-}, {
-	"Metin": "KimlikNo",
-	"Deger": "***********"
-}, {
-	"Metin": "EPosta",
-	"Deger": "test@eposta.com"
-}, {
-	"Metin": "TelefonNo",
-	"Deger": "5559998877"
-}, {
-	"Metin": "AracTescilSeriNo",
-	"Deger": "******"
-}, {
-	"Metin": "UrunGrubu",
-	"Deger": "Trafik"
-}, {
-	"Metin": "TescilTarihi",
-	"Deger": "30.12.2010"
-}, {
-	"Metin": "OncekiPoliceAcenteNo",
-	"Deger": "******"
-}, {
-	"Metin": "BeldeAdi",
-	"Deger": "KONAK"
-}, {
-	"Metin": "BaslangicTarihi",
-	"Deger": "30.12.2015"
-}, {
-	"Metin": "OncekiPoliceYenilemeNo",
-	"Deger": "0"
-}, {
-	"Metin": "OncekiPolicePoliceNo",
-	"Deger": "*********"
-}, {
-	"Metin": "PlakaNo",
-	"Deger": "******"
-}, {
-	"Metin": "OncekiPoliceSirketKodu",
-	"Deger": "007"
-}, {
-	"Metin": "KullanimSekli",
-	"Deger": "0"
-}, {
-	"Metin": "PlakaIlKodu",
-	"Deger": "35"
-}, {
-	"Metin": "IlKodu",
-	"Deger": "35"
-}, {
-	"Metin": "BitisTarihi",
-	"Deger": "30.12.2016"
-}, {
-	"Metin": "TipAdi",
-	"Deger": "GETZ 1.4"
-}, {
-	"Metin": "IlAdi",
-	"Deger": "İZMİR"
-}, {
-	"Metin": "ModelYili",
-	"Deger": "2008"
-}, {
-	"Metin": "Ad",
-	"Deger": "JALE"
-}, {
-	"Metin": "BeldeKodu",
-	"Deger": "871"
-}, {
-	"Metin": "KullanimTarzi",
-	"Deger": "01"
-}, {
-	"Metin": "Soyad",
-	"Deger": "ERKAMAN"
-}, {
-	"Metin": "AracKodu",
-	"Deger": "177180"
-}, {
-	"Metin": "IlceAdi",
-	"Deger": "KONAK"
-}, {
-	"Metin": "TrafigeCikisTarihi",
-	"Deger": "01.01.2008"
-}, {
-	"Metin": "AracTescilKodu",
-	"Deger": "**"
-}, {
-	"Metin": "ekbilgiProfil_004",
-	"Deger": "En Son Kullanılmış Olan Ek Bilgiler"
-}, {
-	"Metin": "eb~004~detayliTramerSorgusuYap",
-	"Deger": "1"
-}], ["004", "045"], "4dec50dc-42a0-48ec-80a8-4322ccaf059c"]
+	{
+		"Alanlar": [{
+			"Metin": "UrunGrubu",
+			"Deger": "Trafik"
+		}, {
+			"Metin": "KimlikNo",
+			"Deger": "1111111111"
+		}, {
+			"Metin": "PlakaIlKodu",
+			"Deger": "45"
+		}, {
+			"Metin": "PlakaNo",
+			"Deger": "KT54627"
+		}, {
+			"Metin": "AracTescilKodu",
+			"Deger": "AB"
+		}, {
+			"Metin": "AracTescilSeriNo",
+			"Deger": "123456"
+		}, {
+			"Metin": "ekbilgiProfil_540",
+			"Deger": "Otomatik"
+		}, {
+			"Metin": "eb~540~detayliTramerSorgusuYap",
+			"Deger": "1"
+		}]
+	}
+, ["540","045"], "4dec50dc-42a0-48ec-80a8-4322ccaf059c"]
+
 </pre>
 
 ##### **Örnek Cevap:**
 <pre>
 {
-	"SirketKodlari": ["004", "045"],
+	"SirketKodlari": ["540", "045"],
 	"OncekiCevaplar": [],
 	"TeklifId": 3352,
 	"Mesaj": "",
