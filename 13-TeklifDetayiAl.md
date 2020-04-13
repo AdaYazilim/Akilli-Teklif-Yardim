@@ -4,8 +4,10 @@
  
 **Link:**"http://localhost/ada/AkilliTeklif.TeklifDetayiAl.aaws"
 
-**Parametreler: teklif Id
+**Parametreler:** teklif Id
 
+**Cevap:**
+"DonenPoliceler" alanında teklif için alınmış teklifler bulunur.  Bu kayıtların Alanları içinde "KayitIstekTipi" alanı "T" ise teklif, "P" ise poliçeleştirme sonucudur.
 
 ##### Örnek İstek:
 <pre>
@@ -19,7 +21,6 @@
 {
 	"Nesne": {		
 		"Teklif": {
-			"donenPolicelerdeAlinsin": true,
 			"Sigortalilar": [],
 			"DonenPoliceler": [
 			{
