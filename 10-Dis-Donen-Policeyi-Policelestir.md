@@ -11,13 +11,16 @@ Parametre Yapısı
        string ekranKey
 </pre>
 
+**Header Parametreleri;**
+Dönüş bilgilerini alacağınız "AkilliTeklifMesajAlici" servisinin linkini adayazılıma doğrudan tanımlatabileceğiniz gibi;
+servis isteğine "ServisLink" ve "ServisSoapAction" keyli HttpHeaderlar olarakta ekleyebilirsiniz.
+
 
 ##### Örnek İstek:
 <pre>
 [
   123,
-	{
-		"Alanlar": [ {
+	[ {
             "Metin": "TelefonNo",
             "Deger": "Müşteri Telefon Numarası "
         },
@@ -41,7 +44,6 @@ Parametre Yapısı
             "Metin": "KrediKartiGuvenlikNo",
             "Deger": "Kredi Kartı Güvenlük Numarası"
         }]
-	}
 ,"4dec50dc-42a0-48ec-80a8-4322ccaf059c"]
 
 </pre>
