@@ -15,6 +15,7 @@ Parametre Yapısı
 Dönüş bilgilerini alacağınız "AkilliTeklifMesajAlici" servisinin linkini adayazılıma doğrudan tanımlatabileceğiniz gibi;
 servis isteğine "ServisLink" ve "ServisSoapAction" keyli HttpHeaderlar olarakta ekleyebilirsiniz.
 
+**Not: İletişimi HTTPS üzerinden kurmanız, Veri güvenliği için önemlidir.**
 
 ##### Örnek İstek:
 <pre>
