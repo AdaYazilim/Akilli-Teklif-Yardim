@@ -1,4 +1,4 @@
-###Araç Kullanım Tarzları
+### Araç Kullanım Tarzları
 
 **Link:**"http://localhost/ada/TeklifSabitleri.AracKullanimTarzlari.aaws"
 
@@ -45,7 +45,7 @@
 </table>
 
 
-###Sigorta Şirketleri
+### Sigorta Şirketleri
 
 **Link:**"http://localhost/ada/TeklifSabitleri.SigortaSirketleri.aaws"
 
@@ -73,7 +73,7 @@
 ]
 </pre>
 
-###Tüm iller
+### Tüm iller
 
 **Link:**"http://localhost/ada/TeklifSabitleri.TumIller.aaws"
 
@@ -93,7 +93,7 @@
 ]
 </pre>
 
-###İlin İlçeleri
+### İlin İlçeleri
 
 **Link:**"http://localhost/ada/TeklifSabitleri.TumIlceler.aaws"
 
@@ -128,7 +128,7 @@
 </pre>
 
 
-###Ülkeler
+### Ülkeler
 
 **Link:**"http://localhost/ada/TeklifSabitleri.TumUlkeler.aaws"
 
