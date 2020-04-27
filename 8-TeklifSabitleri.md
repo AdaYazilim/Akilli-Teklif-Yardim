@@ -126,3 +126,38 @@
   ...
 ]
 </pre>
+
+
+###Ülkeler
+
+**Link:**"http://localhost/ada/TeklifSabitleri.TumUlkeler.aaws"
+
+##### Örnek İstek:
+<pre>
+[]
+</pre>
+
+##### **Örnek Cevap:**
+<pre>
+[
+	{
+		"Id": 1,
+		"No": 4,
+		"Kod": "AF",
+		"Ad": "Afganistan"
+	},
+	{
+		"Id": 2,
+		"No": 248,
+		"Kod": "AX",
+		"Ad": "Aland Adaları"
+	},
+	{
+		"Id": 3,
+		"No": 276,
+		"Kod": "DE",
+		"Ad": "Almanya"
+	},
+  ...
+]
+</pre>
